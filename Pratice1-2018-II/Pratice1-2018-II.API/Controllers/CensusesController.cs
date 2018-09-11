@@ -82,7 +82,7 @@
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(census);
         }
 
         // POST: api/Censuses
