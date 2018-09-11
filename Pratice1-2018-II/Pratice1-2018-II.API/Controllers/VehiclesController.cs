@@ -82,7 +82,7 @@
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(vehicle);
         }
 
         // POST: api/Vehicles
