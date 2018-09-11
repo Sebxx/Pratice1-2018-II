@@ -82,7 +82,7 @@
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(baby);
         }
 
         // POST: api/Babies
