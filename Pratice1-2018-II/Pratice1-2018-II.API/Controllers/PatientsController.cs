@@ -82,7 +82,7 @@
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(patient);
         }
 
         // POST: api/Patients
