@@ -83,7 +83,7 @@
                 }
             }
 
-            return StatusCode(HttpStatusCode.NoContent);
+            return Ok(animal);
         }
 
         // POST: api/Animals
